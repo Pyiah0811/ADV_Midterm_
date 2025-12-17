@@ -2,7 +2,7 @@ name = input("Full Name: ")
 address = input("Address: ")
 age = input("Age: ")
 
-courses = ["1 BSCS", "2 BSIT", "3 BSCPE"]
+courses = ["BSCS", "BSIT", "BSCPE"]
 subjects = ["ADT", "FRE", "AFL", "FOS"]
 
 print("\nAvailable Courses: ")
@@ -24,7 +24,6 @@ print("\n Formatted Enrollment Summary")
 print("Name:",  name)
 print("Address:",  address)
 print("Age:",  age)
-print("Name:",  name)
 print("Course:",  selected_course)
 print("Number of Subjects:",  num_subjects)
 print("Total Payment", total_payment)
